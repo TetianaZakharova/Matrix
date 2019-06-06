@@ -1,0 +1,62 @@
+body {
+  padding: 0;
+  max-width: 1200px;
+  box-sizing: content-box;
+  font-family: 'Josefin Slab', serif;
+}
+
+.header-title {
+  color: darkblue;
+  font-size: 50px;
+  text-align: center;
+}
+
+.matrix {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.matrix2x2 {
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  grid-template-rows: repeat(2, 100px);
+  grid-gap: 10px;
+  
+}
+
+.matrix3x3 {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  grid-gap: 10px;
+}
+
+.matrix4x4 {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(4, 100px);
+  grid-gap: 10px;
+}
+
+.matrix2x2-item, .matrix3x3-item, .matrix4x4-item {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  box-sizing: border-box;
+  border: 2px solid palevioletred;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.matrix2x2-item {
+  background-color: blue;
+}
+
+.matrix3x3-item {
+  background-color: gray;
+}
+
+.matrix4x4-item {
+  background-color: orangered;
+}
